@@ -1,0 +1,634 @@
+:root{
+--Amarillo: #EAC926;
+--Azul: #03264C;
+--Celeste: #1259c3;
+--Grisoscuro: #666;
+--Grisclaro: #ebebeb;
+--Verde: #39b54a;
+}  
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*****************BODY******************/
+body{ /*se puede el body o pongo P?*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+/*****************HEADER******************/
+
+header{
+    background-color: #EAC926 ;
+    width: 100%;
+    padding:0;
+}
+
+.main-header-top-bar{
+    padding: 2%;
+    min-width: 100vw;
+} 
+
+.logo-nav-bar{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.img-logo{
+    max-width: 50vw;
+    height: 10%;
+    padding: 1%;
+}
+
+.icono-busqueda{
+    margin:auto;
+}
+
+/*icono lupa*/
+.fa-magnifying-glass{
+    font-size: 2em;
+    background-color: white;
+    border: solid 1px black;
+    margin-top: 2px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #dfe1e5;
+    padding: 10px;
+    max-width: 50%;
+}
+
+
+
+.img-logo, .main-header-top-bar{ /*REVEER*/
+    flex-grow: 1;
+}
+.compra-en-cuotas{
+    text-align: center;
+    font-weight: 400;
+}
+
+/*FORMULARIO LOGIN*/
+.form-login{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.input-login{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50vw;
+    padding: 10px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-input-login{
+    background-color: #1259c3;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50vw;
+    padding: 10px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ebebeb;
+}
+
+.form-register{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.inputs-register{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60vw;
+    padding: 10px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-fecha{
+    margin-left: 17.5vw;
+}
+.radio-register{
+    display: flex;
+    flex-direction: row;
+    margin-left: 17.5vw;
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+.radio-register .rad-reg{
+    margin-left: 5px;
+}
+.radio-register p{
+    margin-left: 2vw
+}
+.label-register{
+    font-weight: bold;
+    margin: 15;
+    margin-left: 17.5vw;
+    
+}
+.main-radio-register{
+    display: flex;
+    flex-direction: row;
+}
+.main-cbox-register{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox-register{
+    display: flex;
+    margin-left: 17.5vw;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.checkbox-register p{
+    margin-left: 7px;
+}
+
+/*****************BANNER******************/
+
+.banner{
+    width: 100%;
+}
+
+
+/*****************MAIN******************/
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/*************** UL LIST ********************/
+a{
+    text-decoration: none;
+    color:black;
+    margin:0%;
+}
+.left-navbar{
+    padding: 2%;
+}
+.right-navbar{
+    padding:2%;
+}
+
+
+/*****IMÁGENES PRODUCTOS*****/
+.card-producto-img{
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+
+
+
+/******ARTICLES*******/
+article.card{
+    margin:10px;
+    background-color: white;
+    padding: 10px;
+}
+
+article.hijo{
+    border-top: solid 1px #ebebeb;
+    margin:15px;
+}
+/******FIN ARTICLES*******/
+
+
+
+/*********DESCRIPCION PRODUCTOS*****/
+p.precios{
+    font-size: 18px;
+    background-color: white;
+    max-width: 30vw; 
+    margin: 2vw; 
+}
+
+p.desc{
+    font-size: 16px;
+    color:#39b54a;
+    max-width: 70vw;   
+    margin: 2vw; 
+
+}
+.precio-desc{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+
+}
+p.strong{
+    color:black;
+    font-size: 16px;
+}
+.hijo{
+    width: 90%;
+}
+/*********FIN DESCRIPCION PRODUCTOS*****/
+
+
+
+/*TITULARES BASADO EN TU ÚLTIMA VISITA Y OFERTAS*/
+h3{
+    font-size: 24px;
+    margin-left: 10px;
+}
+/****FIN TITULARES BASADO EN TU ÚLTIMA VISITA Y OFERTAS****/
+
+
+
+/****ÍCONOS *****/
+
+#hamburguesa{ /*ÍCONO */
+    background-color:#1259c3;
+    color:white;
+    display:block;
+    max-width: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2em;
+    margin:auto;
+}
+
+
+
+
+/*icono mano */
+.fa-hand-holding-dollar{
+    margin-left: 70px;
+}
+
+/*icono camion*/
+.logo-envio{
+    display: flex;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color:#39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
+    top: -15px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}  
+
+
+
+/********FOOTER********/
+footer{
+    text-align: center;
+    color: black;
+    background-color: #ebebeb;
+    width: 100%;
+}
+
+.fa-credit-card{
+    margin-bottom:10px;
+    font-size: 2em;
+    color: #1259c3;
+}
+
+.fa-gift{
+    margin-bottom:10px;
+    font-size: 2em;
+    color: #1259c3;
+}
+.fa-user-shield{
+    font-size:10px;
+    font-size: 2em;
+    color: #1259c3;
+}
+/****************FIN DEL FOOTER**************************************/
+
+@media(max-width:361px){ /*MOBILE*/
+    .precio-desc{
+        display: none;
+    }
+    .main-navbar{
+        display:none;
+    }
+    .icono-busqueda{
+        display:flex;
+        flex-wrap: nowrap;
+        width: 25%;
+    }
+    .img-logo{
+        width: 25%;
+
+    }
+    .compra-en-cuotas{
+        font-weight: bold;   
+    }
+    .logo-nav-bar{
+        width: 50vw;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        }
+    .main-header-top-bar {
+        align-items: flex-start;
+       }
+       .compra-en-cuotas {
+        align-self: flex-end;
+       }     
+
+
+    .header{
+        height: 10vh;
+        max-width:100%;
+        display:flex;
+        align-items:center;
+    }
+    .fa-magnifying-glass{
+       max-width: 25%;
+    }
+
+    ul.left-navbar{
+        display:none;
+    }
+    ul.right-navbar{
+        display:none;
+    }
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        justify-content: space-around;
+    }
+    .input-login{
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 50vw;
+        padding: 10px;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-input-login{
+        background-color: #1259c3;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 50vw;
+        padding: 10px;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ebebeb;
+    }
+
+    .form-register{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        justify-content: space-around;
+    }
+
+    .inputs-register{
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 60vw;
+        padding: 10px;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-fecha{
+        margin-left: 17.5vw;
+    }
+    .radio-register{
+        display: flex;
+        flex-direction: row;
+        margin-left: 17.5vw;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+    .radio-register .rad-reg{
+        margin-left: 5px;
+    }
+    .radio-register p{
+        margin-left: 2vw
+    }
+    .label-register{
+        font-weight: bold;
+        margin: 15;
+        margin-left: 17.5vw;
+        
+    }
+    .main-radio-register{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-cbox-register{
+        display: flex;
+        flex-direction: column;
+    }
+    .checkbox-register{
+        display: flex;
+        margin-left: 17.5vw;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .checkbox-register p{
+        margin-left: 7px;
+    }
+}
+
+@media (min-width: 425px){ /*TABLET*/
+    #hamburguesa {
+        display:none
+    }
+    article.card{
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .main-header-top-bar{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .main-navbar{
+        display:flex;
+        justify-content: space-between;
+    }
+    .compra-en-cuotas{
+        display: flex;
+        align-items: center;
+        order:1;
+        max-width: 40%;
+    }
+    .left-navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .right-navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a{
+        margin:5px;
+    }
+    .icono-busqueda{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        max-width: 20%;
+    }
+    .products1{
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .products2{
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width: 768px){/*DESKTOP*/
+    #hamburguesa {
+        display:none
+    }
+    article.card{
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }    
+
+    .main-header-top-bar{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+    }
+    .banner{
+        width: 100%;
+        height: auto;
+    }
+
+    .main-navbar{
+        display:flex;
+        justify-content: space-between;
+    }
+    .compra-en-cuotas{
+        display: flex;
+        align-items: center;
+        max-width: 40%;
+    }
+    .left-navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .right-navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a{
+        margin:5px;
+    }
+    .icono-busqueda{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        max-width: 20%;
+
+    }
+    .main{
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .products1{
+        display: flex;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+        max-width: 100%;
+        
+    }
+
+    .products2{
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: nowrap;
+
+    }
+
+    .precio-desc{
+        display:flex;
+        flex-wrap: nowrap;    
+    }
+
+    p.desc{
+        font-size: 16px;
+        color:#39b54a;
+        max-width: 50%;   
+        margin: 2vw; 
+    
+    }
+    p.precios{
+        font-size: 18px;
+        background-color: white;
+        max-width: 50%; 
+        margin: 2vw; 
+    }
+
+    .img-logo{
+        max-width: 80%;
+    }
+
+}
+
+
+@media (min-width: 1200px){
+    .main-header-top-bar, .main-navbar{
+        margin:auto;
+        max-width: 1200px;;
+
+    }
+}
+
